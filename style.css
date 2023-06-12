@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(19, 19, 37);
+    width: 100%;
+    height: 100px;
+}
+
+.links {
+    display: flex;
+    width: 400px;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links li {
+    margin-top: 33px;
+    padding: 3px;
+}
+
+.links li a {
+    font-size: large;
+    font-weight: 500;
+}
+
+.links li:hover {
+
+    background-color: rgb(92, 130, 143);
+    border-radius: 5px;
+}
+
+
+.links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainpage {
+    padding-top: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/wp9037617-minimalist-4k-italy-wallpapers.jpg");
+    background-position: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.button {
+    font-family: cursive;
+    margin-left: 500px;
+    width: 20%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding:20px 34px;
+    font-size: 15px;
+    background: transparent;
+    font-weight: bold;
+    cursor:pointer;  
+    justify-content: center;
+}
+    .button:hover{
+    border:1px solid rgb(185, 6, 6); 
+    background: rgb(185, 6, 6);
+    transition: 0.5s;
+} 
+
+
+.logo {
+
+    color: white;
+    font-family: 'Rubik Puddles', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.text {
+
+    font-weight: bold;
+    color: white;
+    position: relative;
+    animation: mymove 3s;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    height: 300px;
+}
+
+@keyframes mymove {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.container {
+    display: flex;
+}
+
+.help {
+
+    padding: 30px;
+    width: 25%;
+}
+
+.help h3 {
+    margin-left: 30px;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.help ul {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.help li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    margin-bottom: 15px;
+    border: 2px;
+    text-size-adjust: 30px;
+}
+
+.help li a:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+
+.contactus {
+
+    padding: 30px;
+    width: 25%;
+}
+
+.contactus h3 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.contactus ul {
+    list-style: none;
+}
+
+.contactus li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    margin-bottom: 15px;
+    border: 2px;
+    text-size-adjust: 30px;
+}
+
+.contactus li a:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+.quick {
+
+    padding: 30px;
+    width: 25%;
+}
+
+.quick h3 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.quick ul {
+    list-style: none;
+}
+
+.quick li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    margin-bottom: 15px;
+    border: 2px;
+    text-size-adjust: 30px;
+}
+
+.quick li a:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+.social {
+
+    padding: 30px;
+    width: 25%;
+}
+
+.social h3 {
+
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social li img {
+
+    line-height: 2;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.social li:hover {
+
+    width: max-content;
+    background-color: rgb(92, 130, 143);
+    border-radius: 5px;
+}
+
+
+.copyright {
+    color: white;
+    margin-left: 75%;
+}
+
+.service {
+    background-color: aliceblue;
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.service ul li a:hover {
+    background-color: rgb(245, 245, 104);
+    border-radius: 5px;
+}
+
+.service li a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.service ul {
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 70px;
+}
+
+.about {
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.img1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 150px;
+    height: 400px;
+}
+
+.content {
+
+    margin-top: 135px;
+    width: 50%;
+    margin-right: 30px;
+    margin-left: 500px;
+    margin-bottom: 90px;
+    padding-left: 10px;
+}
+
+.para {
+    text-align: center;
+
+}
+
+.footer {
+
+    background-color: rgb(30, 30, 66);
+    width: 100%;
+}
