@@ -51,6 +51,7 @@
     width: 100%;
     height: 700px;
 }
+
 .button {
     font-family: cursive;
     margin-left: 550px;
@@ -59,18 +60,19 @@
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding:20px 34px;
+    padding: 20px 34px;
     font-size: 15px;
     background: transparent;
     font-weight: bold;
-    cursor:pointer;  
+    cursor: pointer;
     justify-content: center;
 }
-    .button:hover{
-    border:1px solid rgb(185, 6, 6); 
+
+.button:hover {
+    border: 1px solid rgb(185, 6, 6);
     background: rgb(185, 6, 6);
     transition: 0.5s;
-} 
+}
 
 
 .logo {
@@ -237,7 +239,7 @@
 .social img:hover {
 
     width: max-content;
-    background-color: rgb(92, 130, 143);
+    background-color: skyblue;
     border-radius: 5px;
 }
 
