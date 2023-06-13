@@ -52,6 +52,7 @@
 
 .nimg_main
 {
+    width: 1480px;
     position: absolute;
     width: 1457px;
     height:360px ;
@@ -102,6 +103,7 @@
 
 #ncontainer_sub
 {
+    margin-left: 10px;
     display: flex;
     justify-content: space-between;
     
@@ -157,15 +159,16 @@
 
 .nstudent
 {
+       width: 1478px;
     position: absolute;
-    width: 1457px;
     margin-top: 100px;
 }
 
 .ndiscount
 {
+    height: 399px;
     position: relative;
-    height: 389px;
+    height: 398px;
     width:1196px;
     margin-top: 100px;
     padding-top: 120px;
@@ -202,6 +205,7 @@
 
 .nmap
 {
+    margin-left: 10px;
     width: 1450px;
     height: 950px;
     position: absolute;
@@ -210,7 +214,7 @@
 
 .ncontainer
 {
-
+    padding-left: 10px;
     position: relative;
     height: 30px;
     width: 25px;
